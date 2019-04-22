@@ -1,8 +1,8 @@
 ---
 
 slug: "/third-post"
-date: "2019-4-23"
-title: "Reparpation Now"
+date: "April 23, 2019"
+title: "Reparations Now"
 
 ---
 

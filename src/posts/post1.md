@@ -1,6 +1,6 @@
 ---
 slug: "/first-post"
-date: "2019-4-21"
+date: "April 21, 2019"
 title: "How Do We Liberate the African Diaspora?"
 
 ---

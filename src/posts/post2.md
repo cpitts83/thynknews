@@ -1,7 +1,7 @@
 ---
 
 slug: "/Second-post"
-date: "2019-4-21"
+date: "April 22, 2019"
 title: "What is Armed Struggle?"
 
 ---
