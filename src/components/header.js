@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components';
 
-import juliahLove from '../images/juliahlove.jpg'
+import blackFist from '../images/blackfist.png'
 
 const HeaderWrapper = styled.div`
   background: #563a10;
@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => (
             style={{
               width: '100px',
             }}
-            src={juliahLove}
+            src={blackFist}
             alt="Level Up Tutorials Logo"
           />
         </Link>
