@@ -1,14 +1,14 @@
 ---
 slug: "/first-post"
 date: "April 21, 2019"
-title: "How Do We Liberate the African Diaspora?"
+title: "Self Worth?"
 
 ---
 
-# Economics
+# I'm Worthly 
 
-What must create a new system of economic power. Technology gives Black people the right to make everything right.  
-Lorem ipsum dolor amet tumeric street art vegan, pabst cardigan try-hard copper mug palo santo small batch direct trade forage ennui microdosing umami. Cray kale chips humblebrag fixie activated charcoal letterpress. Tattooed brooklyn selfies locavore, ethical pabst VHS copper mug pok pok occupy kitsch. Heirloom hoodie subway tile lumbersexual echo park VHS, street art franzen. Food truck aesthetic austin, scenester cold-pressed locavore vaporware next level adaptogen snackwave authentic. Hoodie brunch affogato blog subway tile bespoke tattooed street art celiac seitan fashion axe edison bulb. Try-hard artisan church-key, air plant four loko jean shorts tumeric.
+We are our own worse ememy.  We tend to put ourselves down.  The negative self talk that we give ourselves is crazy
+
 
 ## Health
 

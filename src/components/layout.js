@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Img from 'gatsby-image'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { StaticQuery, graphql } from 'gatsby'
@@ -16,7 +17,7 @@ const MainLayout = styled.main`
   grid-gap: 40px;
 `
 
-const Layout = ({ children }) => (
+const Layout = ({ children, location }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -24,6 +25,15 @@ const Layout = ({ children }) => (
           siteMetadata {
             title
             description
+          }
+        }
+        file(relativePath: {
+            regex: "/staryqueen/"
+              }) {
+            childImageSharp {
+              fluid(maxWidth: 1000) {
+                ...GatsbyImageSharpFluid_tracedSVG
+            }
           }
         }
       }
@@ -43,6 +53,10 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
+        {location.pathname === '/' &&
+         <Img fluid={data.file.childImageSharp.fluid} />
+      }
+        
         <MainLayout>
           <div>
             {children}
