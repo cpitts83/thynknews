@@ -4,14 +4,14 @@ import Img from 'gatsby-image'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { StaticQuery, graphql } from 'gatsby'
-
+import { Spring } from 'react-spring'
 import Header from './header'
 import Archive from './archive'
 import './layout.css'
 
 const MainLayout = styled.main`
   max-width: 90%;
-  margin: 0 auto;
+  margin: 1rem auto;
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-gap: 40px;
@@ -27,12 +27,10 @@ const Layout = ({ children, location }) => (
             description
           }
         }
-        file(relativePath: {
-            regex: "/staryqueen/"
-              }) {
-            childImageSharp {
-              fluid(maxWidth: 1000) {
-                ...GatsbyImageSharpFluid_tracedSVG
+        file(relativePath: { regex: "/freefist/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
@@ -53,14 +51,9 @@ const Layout = ({ children, location }) => (
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        {location.pathname === '/' &&
-         <Img fluid={data.file.childImageSharp.fluid} />
-      }
-        
+       <Img fluid={data.file.childImageSharp.fluid} />
         <MainLayout>
-          <div>
-            {children}
-          </div>
+          <div>{children}</div>
           <Archive />
         </MainLayout>
       </>

@@ -9,9 +9,9 @@ import cloudyChi from '../images/cloudychi.jpg'
 
 const ImageGalley = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 10px;
-  grid-auto-rows: 150px;
+  grid-template-columns: 1fr 1fr 2fr;
+  
 
 img {
   width:100px;

@@ -6,8 +6,8 @@ import Listing from "../components/listing"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = ({location}) => (
-  <Layout location={location}>
+const IndexPage = ({}) => (
+  <Layout>
     <SEO title="Home" keywords={[`thinknews`, `think`, `news`]} />
      <Listing />
       <Image />
