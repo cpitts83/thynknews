@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components';
+import Logo from '../images/thwx.png'
 
-import blackFist from '../images/blackfist.png'
 
 const HeaderWrapper = styled.div`
-  background: #563a10;
+  background-image: linear-gradient(to right, black , red);
   justify-content: center;
   margin-bottom: 1.45rem;
   img {
@@ -34,8 +34,8 @@ const Header = ({ siteTitle }) => (
             style={{
               width: '100px',
             }}
-            src={blackFist}
-            alt="Level Up Tutorials Logo"
+            src={Logo}
+            alt="Thynk Works"
           />
         </Link>
       </h1>

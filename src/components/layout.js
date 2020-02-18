@@ -10,7 +10,7 @@ import Archive from './archive'
 import './layout.css'
 
 const MainLayout = styled.main`
-  max-width: 90%;
+  max-width: 50%;
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -29,7 +29,7 @@ const Layout = ({ children, location }) => (
         }
         file(relativePath: { regex: "/freefist/" }) {
           childImageSharp {
-            fluid(maxWidth: 1000) {
+            fluid(maxWidth: 500) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }

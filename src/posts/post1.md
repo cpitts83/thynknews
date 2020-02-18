@@ -1,13 +1,13 @@
 ---
 slug: "/first-post"
-date: "April 21, 2019"
-title: "Self Worth?"
+date: "September 26, 2019"
+title: "21st Century Workforce Develop"
 
 ---
 
-# I'm Worthly 
+# Train People for in demand Jobs 
 
-We are our own worse ememy.  We tend to put ourselves down.  The negative self talk that we give ourselves is crazy
+Job Training most by tied to 
 
 
 ## Health
